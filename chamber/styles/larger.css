@@ -1,0 +1,29 @@
+@media (min-width: 37.5em){
+    main {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    section {
+        margin: 1rem 1rem;
+    }
+
+    .parc {
+        grid-column: 3/3;
+    }
+    #menu {
+		display: none; /* hide hamburger button */
+	}
+
+	.navigation {
+		flex-direction: row;
+	}
+
+	.navigation li {
+		display: block;
+		flex: 1 1 100%;
+	}
+
+	.stuff {
+		margin: 1rem auto;
+	}
+}
