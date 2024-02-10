@@ -87,7 +87,6 @@ ul a:hover {
 
 section {
     padding: 1rem;
-    background-color: #eaeaea;
     grid-template-columns: 1fr;
     grid-gap: 1rem;
     max-width: 100%;
@@ -102,4 +101,12 @@ h3 {
     color: white;
     padding: 10px;
     border: 1px solid #bbb;
+}
+
+#mode {
+	position: absolute;
+	top: 3rem;
+	right: 1rem;
+	font-size: 2rem;
+	cursor: pointer;
 }

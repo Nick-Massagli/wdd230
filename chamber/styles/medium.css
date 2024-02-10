@@ -60,4 +60,11 @@
     .open li a {
         display: block;
     }
+    #mode {
+        position: absolute;
+        top: 5rem;
+        right: 1rem;
+        font-size: 2rem;
+        cursor: pointer;
+    }
 }
