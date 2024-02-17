@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="styles/larger.css">
     <meta property="og:title" content="Kent Chamber of Commerce" />
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="file:///H:/Desktop/Documents/Rexburg/School/Fall%202023/Web%20Frontend%20I/wdd230/chamber/index.html" />
+    <meta property="og:url" content="KentChamberCommerce.org" />
     <meta property="og:image" content="https://www.connerhomes.com/asset/64503b8feadaa" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -40,7 +40,13 @@
         </ul>
     </nav>
     <main>
-        <img class ="hero" src="images/hero.webp" alt="hero image">
+        <div class="hero">
+            <picture>
+                <source srcset="images/special-sm.webp" media="(max-width: 500px)">
+                <source srcset="images/special-med.webp" media="(max-width: 1000px)">
+                <img src="images/special-lrg.webp" alt="Meeting" width="1890" height="1034">
+            </picture>
+        </div>
         <a href="https://youtu.be/dQw4w9WgXcQ?si=aZMB2szcjEd55tUG" target="_blank" class="join-button">Join The Chamber</a>
         <section>
             <h3>Current Events</h3>
@@ -48,7 +54,10 @@
         </section>
         <section>
             <h3>Weather</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris et quam a leo sodales ornare. Aliquam sollicitudin rutrum sapien, quis lobortis risus ultricies eget. Ut ac fermentum erat. Etiam eu condimentum ex. Vivamus scelerisque dapibus imperdiet. Phasellus pellentesque massa eu tellus ultricies, vel tincidunt ex consectetur.</p>
+            <p>Today's Weather</p>
+            <p id="temp">Temperature: 32&deg;</p>
+            <p id="wind">Wind: 5mph</p>
+            <p id="chill">Wind Chill: <span id="windChill"></span>&deg;</p>
         </section>
         <section>
             <h3>Spotlights</h3>
@@ -63,5 +72,6 @@
 <script src="scripts/getdates.js"></script>
 <script src="scripts/hambutton.js"></script>
 <script src="scripts/darkmode.js"></script>
+<script src="scripts/windchill.js"></script>
 </body>
 </html>
