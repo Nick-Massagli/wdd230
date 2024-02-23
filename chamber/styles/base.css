@@ -111,3 +111,14 @@ h3 {
 	font-size: 2rem;
 	cursor: pointer;
 }
+
+.discover {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.img-gallery {
+    grid-column: 3/3;
+}
+
+.hover:hover {box-shadow: 0 0 25px #333;}
