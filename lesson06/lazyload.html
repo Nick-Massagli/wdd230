@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lazy Load Test</title>
+    <meta name="author" content="Nick Massagli">
+    <link rel="stylesheet" href="styles/lazyload.css">
+</head>
+<body>
+    <header>
+        <h1>Lazy Load Test</h1>
+    </header>
+    <main>
+        <img src="images/nick-1.JPG" alt="Nick with family" loading="lazy" width="400px" height="600px">
+        <img src="images/nick-2.jpg" alt="Nick with camera" loading="lazy" width="400px" height="600px">
+        <img src="images/nick-3.JPG" alt="Nick and Andy" loading="lazy" width="400px" height="600px">
+        <img src="images/nick-4.jpg" alt="Nick in Kyoto" loading="lazy" width="400px" height="600px">
+        <img src="images/laputa.jpg" alt="Frame from Studio Ghibli's Castle in the Sky" loading="lazy" width="400px" height="600px">
+        <img src="images/fire.JPG" alt="Fire" loading="lazy" width="400px" height="600px">
+    </main>
+    <footer>
+        <p style="text-align: center;">&copy; <span id="year"></span> Nick Massagli Idaho, USA</p>
+        <p style="text-align: center;">Last Modification: <span id="lastModified"></span> </p>
+    </footer>
+    <script src="scripts/getdates.js"></script>
+</body>
+</html>
