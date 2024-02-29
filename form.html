@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css" type="text/css">
+    <link rel="stylesheet" href="styles/form.css">
+    <link rel="icon" href="images/favicon.ico">
+    <meta property="og:title" content="Nick Massagli - WDD 230" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="file:///H:/Desktop/Documents/Rexburg/School/Fall%202023/Web%20Frontend%20I/wdd230/index.html" />
+    <meta property="og:image" content="https://www.connerhomes.com/asset/64503b8feadaa" />
+    <title>Form Build</title>
+</head>
+<body>
+    <header>
+        <div class="nick-pic"><img src="images/nick-camera.webp" width="75" height="100" alt="Nick with Camera">
+        <h1 style="text-align: center;">Nick Massagli</h1>
+    </header>
+    <nav>
+        <li><a href="index.html"><p style="text-align: center;">Home</a></li>
+        <li><a href="chamber/siteplan.html"><p style="text-align: center;">Site Plan</a></li>
+        <li><a href="chamber/index.html"><p style="text-align: center;">Chamber</a></li>
+        <li><a href="https://www.byui.edu/" target="_blank"><p style="text-align: center;">BYU-Idaho</a></li>
+        <li><a href=" https://www.churchofjesuschrist.org/study/scriptures" target="_blank"><p style="text-align: center;">1 Nephi 3:7</a></li>
+    </nav>
+    <main>
+        <form method="get" action="record.html">
+            <fieldset>
+                <label class="top">Username* <input type="text" id="username" name="username" required></label>
+                <label class="top" for="keyphrase">Password* <input type="text" id="password" name="password" pattern="[a-zA-Z0-9]{8,}" placeholder="At least 8 characters long, letters and numbers only" required></label>
+                <label class="top" for="keyphrase2">Confirm Password* <input type="text" id="password2" name="password2" required></label>
+                <label class="top"> Email* <input type="email" id="email" name="email" pattern="[a-zA-Z0-9._%+-]+@byui\.edu$" placeholder="Plese enter a valid email address" required></label>
+                <label class="sbs">Page Rating <input type="range" id="rating" name="rating" min="1" max="10" value="1" step="1" list="rangevalues"></label>
+                <datalist id="rangevalues">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+            </fieldset>
+            <input type="submit" value="Submit" class="submitBtn">
+        </form>
+    </main>
+    <footer>
+        <p style="text-align: center;">&copy; <span id="year"></span> Nick Massagli Idaho, USA</p>
+        <p style="text-align: center;">Last Modification: <span id="lastModified"></span> </p>
+    </footer>
+<script src="scripts/getdates.js"></script>
+<script src="scripts/visits.js"></script>
+<script src="scripts/password.js"></script>
+</body>
+</html>
