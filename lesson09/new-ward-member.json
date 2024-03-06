@@ -1,0 +1,38 @@
+{
+    "familyName" : "Massagli",
+    "movedIn" : 2008,
+    "recordNumber" : 6,
+    "bishopVisited" : true,
+    "members" : [
+        {
+            "name" : "Andrew",
+            "gender" : "Male",
+            "birthdate" : "1971/01/02"
+        },
+        {
+            "name" : "Anita",
+            "gender" : "Female",
+            "birthdate" : "1971/08/18"
+        },
+        {
+            "name" : "Camillo",
+            "gender" : "Male",
+            "birthdate" : "1994/08/26"
+        },
+        {
+            "name" : "Madison",
+            "gender" : "Female",
+            "birthdate" : "1997/11/06"
+        },
+        {
+            "name" : "Nicholas",
+            "gender" : "Male",
+            "birthdate" : "2001/03/07"
+        },
+        {
+            "name" : "Sofia",
+            "gender" : "Female",
+            "birthdate" : "2005/12/31"
+        }
+    ]
+} 

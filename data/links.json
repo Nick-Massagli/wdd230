@@ -1,0 +1,95 @@
+{
+    "lessons": [
+        {
+            "lesson": "02",
+            "links": [
+                {
+                    "url":"lesson02/design-principles.html",
+                    "title":"Media Queries"
+                },
+                {
+                    "url":"lesson02/design-principles.html",
+                    "title":"Design Principles Document"
+                }
+            ]
+        },
+        {
+            "lesson": "03",
+            "links": [
+                {
+                    "url":"images/combinators.JPG",
+                    "title":"Combinators Screenshot"
+                },
+                {
+                    "url":"https://codepen.io/Nick-Massagli/pen/dywKVGE",
+                    "title":"Psuedo Elements"
+                },
+                {
+                    "url":"https://codepen.io/Nick-Massagli/pen/XWoYeRP",
+                    "title":"Hamburger Menu"
+                },
+                {
+                    "url":"lesson03/chamber-site-plan.html",
+                    "title":"Chamber Site Plan"
+                }
+            ]
+        },
+        {
+            "lesson": "04",
+            "links": [
+                {
+                    "url":"https://codepen.io/Nick-Massagli/pen/GRPYgQd",
+                    "title":"Pseudo Classes"
+                }
+            ]
+        },
+        {
+            "lesson": "05",
+            "links": [
+                {
+                    "url":"images/landscape.webp",
+                    "title":"WebP"
+                },
+                {
+                    "url":"lesson05/responsive-images.html",
+                    "title":"Responsive Images"
+                }
+            ]
+        },
+        {
+            "lesson": "06",
+            "links": [
+                {
+                    "url":"lesson06/lazyload.html",
+                    "title":"Lazy Load Test"
+                }
+            ]
+        },
+        {
+            "lesson": "07",
+            "links": [
+                {
+                    "url":"lesson07/tablebuild.html",
+                    "title":"Table Build"
+                },
+                {
+                    "url":"forms/index.html",
+                    "title":"HTML Forms"
+                },
+                {
+                    "url":"form.htm",
+                    "title":"Form Page"
+                }
+            ]
+        },
+        {
+            "lesson": "08",
+            "links": [
+                {
+                    "url":"lesson09/new-ward-member.json",
+                    "title":"JSON"
+                }
+            ]
+        }
+    ]
+    }

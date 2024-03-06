@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+  }
+
+  body {
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  h1,
+  h2 {
+    margin: 0.25em;
+    font-family: "Times New Roman", serif;
+  }
+
+  h1 {
+    font-size: 2rem;
+    color: #53896c;
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+    text-align: center;
+    font-family: "Times New Roman";
+    background-color: #53896c;
+    color: whitesmoke;
+    border-radius: 5px;
+    padding: 0.5em;
+    width: 100%;
+  }
+
+  main {
+    max-width: 1080px;
+    margin: 0 auto;
+  }
+
+  section {
+    border: 1px solid #53896c;
+    border-radius: 5px;
+    padding: 0.5rem;
+    background-color: #c2eeff3a;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  section p {
+    font-size: 0.8rem;
+  }
+
+  section img {
+    width: 150px;
+    height: auto;
+    box-shadow: 0 0 15px #333;
+    margin-top: 0.75em;
+  }
+
+  .cards {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 30px #777777;
+    padding: 1rem;
+    margin-top: 1em;
+    display: grid;
+    grid-gap: 0.25rem;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  }
+  footer {
+    text-align: center;
+    font-family: "Times New Roman";
+    background-color: #53896c;
+    color: white;
+    border-radius: 5px;
+    padding: 0.5em;
+    margin-top: 1em;
+    width: 100%;
+  }
+
+  /* medium viewports */
+  @media (min-width: 520px) {
+    .cards {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+
+  /* large viewports */
+  @media (min-width: 960px) {
+    .cards {
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+  }
+
