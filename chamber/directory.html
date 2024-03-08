@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="styles/larger.css">
-    <meta property="og:title" content="Kent Chamber of Commerce - Home" />
+    <meta property="og:title" content="Kent Chamber of Commerce - Member Diirectory" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="KentChamberCommerce.org" />
     <meta property="og:image" content="https://www.connerhomes.com/asset/64503b8feadaa" />
@@ -24,7 +24,7 @@
 </head>
 <body>
     <header>
-        <div class="logo"><img src="images/kent-logo.webp"  width="75" height="75" alt="Chamber Logo"></div> 
+        <div class="logo"><img src="images/Kent-Chamber-logo-(002).webp"  width="75" height="75" alt="Chamber Logo"></div> 
         <h1>Kent Chamber of Commerce</h1>
         <div id="mode">
             🌙
@@ -33,36 +33,14 @@
     <nav>
         <button id="menu"></button>
         <ul class="navigation">
-            <li><a href="#"><h2>Home</h2></a></li>
+            <li><a href="index.html"><h2>Home</h2></a></li>
             <li><a href="discover.html"><h2>Discover</h2></a></li>
-            <li><a href="directory.html"><h2>Directory</h2></a></li>
+            <li><a href="#"><h2>Directory</h2></a></li>
             <li><a href="join.html"><h2>Join</h2></a></li>
         </ul>
     </nav>
     <main>
-        <div class="hero">
-            <picture>
-                <source srcset="images/hero.webp" media="(max-width: 500px)">
-                <source srcset="images/hero.webp" media="(max-width: 1000px)">
-                <img src="images/hero.webp" alt="Kent" width="1890" height="1034">
-            </picture>
-        </div>
-        <a href="https://youtu.be/dQw4w9WgXcQ?si=aZMB2szcjEd55tUG" target="_blank" class="join-button">Join The Chamber</a>
-        <section>
-            <h3>Current Events</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris et quam a leo sodales ornare. Aliquam sollicitudin rutrum sapien, quis lobortis risus ultricies eget. Ut ac fermentum erat. Etiam eu condimentum ex. Vivamus scelerisque dapibus imperdiet. Phasellus pellentesque massa eu tellus ultricies, vel tincidunt ex consectetur.</p>
-        </section>
-        <section>
-            <h3>Weather</h3>
-            <p>Today's Weather</p>
-            <p id="temp">Temperature: 32&deg;</p>
-            <p id="wind">Wind: 5mph</p>
-            <p id="chill">Wind Chill: <span id="windChill"></span>&deg;</p>
-        </section>
-        <section>
-            <h3>Spotlights</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris et quam a leo sodales ornare. Aliquam sollicitudin rutrum sapien, quis lobortis risus ultricies eget. Ut ac fermentum erat. Etiam eu condimentum ex. Vivamus scelerisque dapibus imperdiet. Phasellus pellentesque massa eu tellus ultricies, vel tincidunt ex consectetur.</p>
-        </section>
+        <div class="cards"></div>
     </main>
     <footer>
         <p style="text-align: center;">&copy; <span id="year"></span> Nick Massagli Idaho, USA</p>
@@ -73,5 +51,6 @@
 <script src="scripts/hambutton.js"></script>
 <script src="scripts/darkmode.js"></script>
 <script src="scripts/windchill.js"></script>
+<script src="scripts/members.js"></script>
 </body>
 </html>

@@ -1,0 +1,53 @@
+{
+    "members": [
+      {
+        "name": "ShoWare Center",
+        "address": "625 W. James St. Kent WA 98032",
+        "phone": "(253) 856-6777",
+        "url": "https://www.accessoshowarecenter.com/",
+        "membership": "Silver"
+      },
+      {
+        "name": "BECU Kent Station",
+        "address": "321 Ramsay Way Suite 109 Kent WA 98032",
+        "phone": "(206) 214-1464, (800) 233-2328",
+        "url": "https://www.becu.org/",
+        "membership": "Gold"
+      },
+      {
+        "name": "Oberto Snacks Inc",
+        "address": "7060 Oberto Dr Kent WA 98032",
+        "phone": "(253) 437-6100, (253) 437-6153",
+        "url": "https://www.oberto.com/",
+        "membership": "Gold"
+      },
+      {
+        "name": "Northwest Harvest",
+        "address": "22220 W Valley Hwy Kent WA 98032",
+        "phone": "(800) 722-6924",
+        "url": "https://www.northwestharvest.org/",
+        "membership": "Bronze"
+      },
+      {
+        "name": "Valley Medical Center",
+        "address": "400 South 43rd Street P.O. Box 50010 Renton WA 98058",
+        "phone": "(425) 690-6777",
+        "url": "https://www.valleymed.org/",
+        "membership": "Silver"
+      },
+      {
+        "name": "Raceway United",
+        "address": "31218 144th Ave SE Suite 115 Kent WA 98042",
+        "phone": "(360) 808-9616",
+        "url": "https://racewayunited.com/",
+        "membership": "Bronze"
+      },
+      {
+        "name": "Mama Stortini's",
+        "address": "240 W Kent Station Suite 104 Kent WA 98032-4505",
+        "phone": "(253) 854-5050",
+        "url": "https://www.mamastortinis.com/",
+        "membership": "Bronze"
+      }
+    ]
+  }

@@ -203,4 +203,44 @@ form textarea {
 
 .sidebar {
     grid-column: 3/3;
-} 
+}
+
+.cards {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 30px #777777;
+    padding: 1rem;
+    margin-top: 1em;
+    display: grid;
+    grid-gap: 0.25rem;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    overflow-wrap: break-word;
+}
+
+.cards section {
+  border: 1px solid #53896c;
+  border-radius: 5px;
+  padding: 0.5rem;
+  background-color: #c2eeff3a;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.cards section p {
+  font-size: 1rem;
+  position: relative;
+  word-break: break-all;
+  margin: auto;
+}
+
+.cards h2 {
+  font-size: 1.5rem;
+  text-align: center;
+  background-color: #1e5f7c;
+  color: whitesmoke;
+  border-radius: 5px;
+  padding: 0.5em;
+  width: 100%;
+  }
