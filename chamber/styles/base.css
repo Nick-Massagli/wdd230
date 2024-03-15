@@ -243,4 +243,17 @@ form textarea {
   border-radius: 5px;
   padding: 0.5em;
   width: 100%;
-  }
+}
+
+#reminder-banner {
+  padding: .5rem;
+  background-color: #359360;
+  color: white;
+  position: relative;
+}
+.close-btn {
+  position: absolute;
+  top: .5rem;
+  right: .5rem;
+  cursor: pointer;
+}

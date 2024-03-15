@@ -39,6 +39,10 @@
             <li><a href="join.html"><h2>Join</h2></a></li>
         </ul>
     </nav>
+    <div id="reminder-banner" style="text-align: center;">
+        Reminder: Chamber of Commerce Meet &amp; Greet this Wednesday at 7:00pm
+        <span class="close-btn" onclick="closeBanner()">✖</span>
+    </div>
     <main>
         <div class="hero">
             <picture>
@@ -47,17 +51,20 @@
                 <img src="images/hero.webp" alt="Kent" width="1890" height="1034">
             </picture>
         </div>
-        <a href="https://youtu.be/dQw4w9WgXcQ?si=aZMB2szcjEd55tUG" target="_blank" class="join-button">Join The Chamber</a>
+        <a href="join.html" target="_blank" class="join-button">Join The Chamber</a>
         <section>
             <h3>Current Events</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris et quam a leo sodales ornare. Aliquam sollicitudin rutrum sapien, quis lobortis risus ultricies eget. Ut ac fermentum erat. Etiam eu condimentum ex. Vivamus scelerisque dapibus imperdiet. Phasellus pellentesque massa eu tellus ultricies, vel tincidunt ex consectetur.</p>
         </section>
         <section>
             <h3>Weather</h3>
-            <p>Today's Weather</p>
-            <p id="temp">Temperature: 32&deg;</p>
-            <p id="wind">Wind: 5mph</p>
-            <p id="chill">Wind Chill: <span id="windChill"></span>&deg;</p>
+            <p style="text-align: center;">Today's Weather</p>
+                <p style="text-align: center;"><span id="current-temp"></span></p>
+                <figure style="text-align: center;">
+                    <img id="weather-icon" src="https://openweathermap.org/img/wn/" alt="icon">
+                    <figcaption></figcaption>
+                </figure>
+            <p style="text-align: center;"><span id="forecast"></span></p>
         </section>
         <section>
             <h3>Spotlights</h3>
@@ -73,5 +80,7 @@
 <script src="scripts/hambutton.js"></script>
 <script src="scripts/darkmode.js"></script>
 <script src="scripts/windchill.js"></script>
+<script src="scripts/weather.js"></script>
+<script src="scripts/forecast.js"></script>
 </body>
 </html>
