@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Open+Sans:wght@300;500&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Roboto:wght@500&family=Bungee&display=swap');
+
+body {
+    color: black;
+    background-color: #FFFFFF;
+    font-family: 'Red Hat Display', sans-serif;
+    background-image: url('../images/beach.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header {
+    font-family: 'Bungee', sans-serif;
+    font-size: 20px;;
+}
+
+h3 {
+    color:#FFFFFF;
+    background-color: #FFA07A;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 6.5px;
+    border: 1px solid #FFA07A;
+    border-radius: 5px;
+}
+
+p {
+    padding-left: 10px;
+}
+
+h4 {
+    padding-left: 8px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: #20B2AA;
+    text-align: center;
+}
+
+nav li {
+  display: inline-block;
+  width: 20%;
+  margin-right: -4px;
+}
+
+nav a {
+  display: block;
+  text-decoration: none;
+}
+
+ul a:link {
+    color: white;
+}
+
+ul a:visited {
+    color: white;
+}
+
+ul a:hover {
+    color: black;
+}
+
+section {
+    background: rgba(255, 239, 213, 0.7);
+    padding: 7px;
+}
+
+footer {
+    color: white;
+    background: #20B2AA;
+}
+
+a {
+    padding-left: 5px;
+    padding-bottom: 5px;
+}
+
+#reminder-banner {
+    padding: .5rem;
+    background-color: #ffc756;
+    color: black;
+    position: relative;
+  }
+  .close-btn {
+    position: absolute;
+    top: .5rem;
+    right: .5rem;
+    cursor: pointer;
+    color: black;
+  }
+
+  table, th, td {
+    border:1px solid black;
+  }

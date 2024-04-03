@@ -1,0 +1,52 @@
+{
+    "type": [
+        {
+            "name": "Honda Metro Scooter (49cc)",
+            "max-persons": "1",
+            "res-hday": "$20",
+            "res-fday": "$30",
+            "walk-hday": "$25",
+            "walk-fday": "$35"
+        },
+        {
+            "name": "Honda Dio Scooter (110cc)",
+            "max-persons": "2",
+            "res-hday": "$30",
+            "res-fday": "$40",
+            "walk-hday": "$35",
+            "walk-fday": "$45"
+        },
+        {
+            "name": "Honda PCX150 Scooter (149cc)",
+            "max-persons": "2",
+            "res-hday": "$40",
+            "res-fday": "$50",
+            "walk-hday": "$45",
+            "walk-fday": "$55"
+        },
+        {
+            "name": "Honda Pioneer ATV",
+            "max-persons": "4",
+            "res-hday": "$50",
+            "res-fday": "$70",
+            "walk-hday": "$60",
+            "walk-fday": "$80"
+        },
+        {
+            "name": "Jeep Wrangler - 4 door w/ A/C",
+            "max-persons": "5",
+            "res-hday": "$70",
+            "res-fday": "$100",
+            "walk-hday": "$85",
+            "walk-fday": "$125"
+        },
+        {
+            "name": "Jeep Wrangler - 2 door",
+            "max-persons": "4",
+            "res-hday": "$60",
+            "res-fday": "$85",
+            "walk-hday": "$70",
+            "walk-fday": "$90"
+        }
+    ]
+}
