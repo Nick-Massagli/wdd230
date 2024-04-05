@@ -96,7 +96,6 @@ a {
     border: 1px solid #20B2AA;
     border-radius: 10px;
     padding: .5rem 2%;
-    background: rgba(255, 239, 213, 0.7);
     padding: 7px;
 }
 
@@ -166,10 +165,10 @@ form textarea {
     display: block;
     padding-top: 1rem;
     color: #456685;
-    resize: none;
     font-size: 18px;
     border: none;
     border-radius: 1rem;
+    width: max-content;
 }
 
 input[type='number'] {
@@ -177,10 +176,10 @@ input[type='number'] {
     text-align: center;
 } 
 
-.res-form {
+form {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-content: center;
 }
 
 .thankyou {
