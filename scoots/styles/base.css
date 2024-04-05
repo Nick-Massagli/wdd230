@@ -186,42 +186,36 @@ form {
     font-size: larger;
 }
 
-.cards {
-    background-color: white;
-    border-radius: 5px;
-    box-shadow: 0 0 30px #777777;
-    padding: 1rem;
-    margin-top: 1em;
-    display: grid;
-    grid-gap: 0.25rem;
-    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-    overflow-wrap: break-word;
+table {
+    border-collapse: collapse;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  td, th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even){
+    background-color: #ffe2b2;
 }
 
-.cards section {
-  border: 1px solid #53896c;
-  border-radius: 5px;
-  padding: 0.5rem;
-  background-color: #c2eeff3a;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  tr:nth-child(odd){
+    background-color: #ffefd5;
 }
-
-.cards section p {
-  font-size: 1rem;
-  position: relative;
-  word-break: break-all;
-  margin: auto;
+  
+  tr:hover {
+    background-color: #20B2AA;
+    color: white;
 }
-
-.cards h2 {
-  font-size: 1.5rem;
-  text-align: center;
-  background-color: #1e5f7c;
-  color: whitesmoke;
-  border-radius: 5px;
-  padding: 0.5em;
-  width: 100%;
-}
+  
+  th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #FFA07A;
+    color: white;
+  }

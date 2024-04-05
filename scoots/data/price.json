@@ -1,6 +1,14 @@
 {
     "type": [
         {
+            "name": "Vehicle",
+            "maxpersons": "Max Persons",
+            "reshday": "Price - Reservation - Half Day",
+            "resfday": "Price - Reservation - Full Day",
+            "walkhday": "Price - Walk In - Half Day",
+            "walkfday": "Price - Walk In - Full Day"
+        },
+        {
             "name": "Honda Metro Scooter (49cc)",
             "maxpersons": "1",
             "reshday": "$20",
