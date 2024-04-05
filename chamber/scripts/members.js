@@ -6,8 +6,8 @@ fetch(requestURL)
   })
   .then(function (jsonObject) {
     console.table(jsonObject);
-    const members = jsonObject['members'];
-    const cards = document.querySelector('.cards');
+    const members = jsonObject['type'];
+    const cards = document.querySelector('.table');
 
     members.forEach(member => {
         let card = document.createElement('section');

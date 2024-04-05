@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/favicon.ico">
+    <meta name="description" content="a mock rental site as a project displaying mastery of HTML and CSS principles taught in the WDD 230 course at BYU-Idaho.">
+    <meta property="og:title" content="~Scoots~ Rentals at Cozumel - Reservations" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="scootsrentals.com" />
+    <meta property="og:image" content="" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Open+Sans:wght@300;500&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Roboto:wght@500&family=Bungee&display=swap" rel="stylesheet">
+    <link href="styles/base.css" rel="stylesheet">
+    <link href="styles/medium.css" rel="stylesheet">
+    <link href="styles/larger.css" rel="stylesheet">
+    <link href="styles/normalize.css" rel="stylesheet">
+    <title>~Scoots~ Rentals at Cozumel - Reservations</title>
+</head>
+<body>
+    <header>
+        <h1 style="text-align: center;">~Scoots~</h1>
+        <h2 style="text-align: center;">Adventure Rentals in Cozumel</h2>
+    </header>
+    <nav>
+        <button id="menu"></button>
+        <ul class="navigation">
+            <li><a href="index.html"><h2>Home</h2></a></li>
+            <li><a href="rentals.html"><h2>Rentals</h2></a></li>
+            <li><a href="reservations.html"><h2>Reservations</h2></a></li>
+            <li><a href="contact.html"><h2>Contact</h2></a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="sidebar">
+            <section>
+                <h3>Membership Tier Information</h3>
+                <h4>Rental Services and Agreement</h4>
+                <p>- A $50 security deposit is required to confirm reservations.</p>
+                <p>- A valid drivers license is required in hand at the time of rental.</p>
+                <p>- No one under the age of 12 years of age are allowed to ride on the scooters.</p>
+                <p>- Fuel charge is not included.</p>
+                <p>- Unlimited mileage.</p>
+                <p>- Liability insurance is included.</p>
+                <p>- Damage insurance is available for purchase.</p>
+                <p>- Free delivery to Cozumel hotels or Airbnbs for 2+ day rentals</p>
+                <p>- Payment via Google Pay, Apple Pay, cash, credit card, debit card, or venmo.</p>
+                <p>- Rentals may be returned to either physical location.</p>
+
+        </div>
+        <h1 class="res-title" style="text-align: center;">Reserve A Vehicle</h1>
+        <div class="join form">
+            <form class="res-form" method="get" action="thankyou.html">
+                <fieldset>
+                    <legend>Rental Form</legend>
+                    <div class="app-info"><h4>Applicant Information</h4>
+                    <label class="top"> First Name* <input type="text" id="fname" name="fname" placeholder="First Name" required></label>
+                    <label class="top"> Last Name* <input type="text" id="lname" name="lname" placeholder="Last Name" required></label>
+                    <label class="top"> Email* <input type="email" id="email" name="email" placeholder="someone@gmail.com" required></label>
+                    <label class="top"> Phone Number* <input type="tel" id="tel" name="tel" placeholder="(555) 555-5555" required></label>
+                    <label class="top"> Home State or Country* <input type="text" id="home" name="home" required></label>
+                    <label class="top"> Date of Rental* <input type="date" id="rentdate" name="rentdate" required></label>
+                    <label class="top"> Cruise line <input type="text" id="cruise" name="cruise"></label>
+                    </div>
+
+                    <div class="rent-period"><h4>Rental Period</h4>
+                    <label class="sbs"><input type="radio" id="period" name="period" value="hd"> Half Day (3 hours) </label>
+                    <label class="sbs"><input type="radio" id="period" name="period" value="fd"> Full Day </label>
+                    </div>
+                    
+                    <div class="vehicle"><h4>Vehicle Options</h4>
+                    <label class="sbs"><input type="checkbox" id="vehicle" name="vehicle" value="hms"> Honda Metro Scooter </label>
+                    <label class="num"><input type="number" name="quantity" id="quantity" min="1" max="15" placeholder="1-15"/> How Many? </label>
+
+                    <label class="sbs"><input type="checkbox" id="vehicle" name="vehicle" value="hds"> Honda Dio Scooter </label>
+                    <label class="num"><input type="number" name="quantity" id="quantity" min="1" max="15" placeholder="1-15"/> How Many? </label>
+
+                    <label class="sbs"><input type="checkbox" id="vehicle" name="vehicle" value="pcx"> Honda PCX150 </label>
+                    <label class="num"><input type="number" name="quantity" id="quantity" min="1" max="15" placeholder="1-15"/> How Many? </label>
+
+                    <label class="sbs"><input type="checkbox" id="vehicle" name="vehicle" value="hpatv"> Honda Pioneer ATV </label>
+                    <label class="num"><input type="number" name="quantity" id="quantity" min="1" max="7" placeholder="1-7"/> How Many? </label>
+
+                    <label class="sbs"><input type="checkbox" id="vehicle" name="vehicle" value="jw4"> Jeep Wrangler 4 Door </label>
+                    <label class="num"><input type="number" name="quantity" id="quantity" min="1" max="4" placeholder="1-4"/> How Many? </label>
+
+                    <label class="sbs"><input type="checkbox" id="vehicle" name="vehicle" value="jw2"> Jeep Wrangler 2 Door </label>
+                    <label class="num"><input type="number" name="quantity" id="quantity" min="1" max="5" placeholder="1-5"/> How Many? </label>
+                    <label class="top"> Special Accommodations <textarea  id="description" name="description" rows="10" cols="75" placeholder="Special accommodations/comments such as the need and location of a drop-off request."></textarea></label>
+                    <p></p>
+                    <input type="submit" value="Submit Application" class="submitBtn">
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <div style="text-align: center;">
+            <p>--- THIS IS A FICTITIOUS SITE --- FOR BRIGHAM YOUNG UNIVERSITY - IDAHO WDD 230 ---</p>
+            <p>QUESTIONS AND SUPPORT | (555) 555-5555 | support@scootsrentals.com</p>
+            <a href="https://www.facebook.com/"><img src="images/facebook.png" alt="Facebook" style="width:42px;height:42px;"></a>
+            <a href="https://www.twitter.com/"><img src="images/twitter.png" alt="Twitter" style="width:42px;height:42px;"></a>
+            <a href="https://www.instagram.com/"><img src="images/instagram.webp" alt="Instagram" style="width:42px;height:42px;"></a>
+            <a href="https://www.tiktok.com/"><img src="images/tiktok.webp" alt="TikTok" style="width:42px;height:42px;"></a>
+            <a href="https://www.yelp.com/"><img src="images/yelp.png" alt="Yelp" style="width:42px;height:42px;"></a>
+        </div>
+    </footer>
+    <script src="scripts/weather.js"></script>
+    <script src="scripts/hambutton.js"></script>
+</body>
+</html>

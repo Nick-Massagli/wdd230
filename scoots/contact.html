@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="images/favicon.ico">
     <meta name="description" content="a mock rental site as a project displaying mastery of HTML and CSS principles taught in the WDD 230 course at BYU-Idaho.">
-    <meta property="og:title" content="~Scoots~ Rentals at Cozumel - Home" />
+    <meta property="og:title" content="~Scoots~ Rentals at Cozumel - Contact" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="scootsrentals.com" />
     <meta property="og:image" content="" />
@@ -16,7 +16,7 @@
     <link href="styles/medium.css" rel="stylesheet">
     <link href="styles/larger.css" rel="stylesheet">
     <link href="styles/normalize.css" rel="stylesheet">
-    <title>~Scoots~ Rentals at Cozumel - Home</title>
+    <title>~Scoots~ Rentals at Cozumel - Contact</title>
 </head>
 <body>
     <header>
@@ -32,45 +32,28 @@
             <li><a href="contact.html"><h2>Contact</h2></a></li>
         </ul>
     </nav>
-    <div id="reminder-banner" style="text-align: center;">
-        High Temp in Cozumel Today is <span id="max-temp"></span>
-        <span class="close-btn" onclick="closeBanner()">✖</span>
-    </div>
-    <main style="text-align: center;">
-        <section>
-            <h3>What We're About</h3>
-            <p>We're here to provide you with an opportunity to explore our beautiful island! Whether you want to scoot around San Miguel, or explore the untamed eastern jungles, ~Scoots~ has options for you! Tourist or local, make the most of your time in Cozumel, and rent with ~Scoots~!</p>
-            <p>We offer a variety of vehicles to fit your needs! From scooters to Jeeps, you'll be able to explore Cozumel in your choice of comfort and style. We offer both half day, and full day rentals</p>
-            <h4>Honda Motor Scooters</h4>
-            <p>Honda Metropolitan (49cc) | Honda Dio (110cc) | Honda PCX150 (149cc)</p>
-            <h4>Side-by-Side ATVs</h4>
-            <p>Honda Pioneer 1000</p>
-            <h4>Jeeps</h4>
-            <p>Jeep Wrangler - 4 Door | Jeep Wrangler - 2 Door</p>
-
-        </section>
-
-        <section>
-            <h3>Where We're Located</h3>
-            <p>We have 2 great locations to meet your needs! Our main store is right by the Playa del Carmen-Cozumel ferry dock in Centro del Cozumel, a nice central location near the beach. Our other store can be found near Terminal Puerta Maya, perfect for our foreign amigos coming to us via cruise. See more at our Contact page.</p>
-        </section>
-
+    <main>
+        <h1 class="res-title" style="text-align: center;">Get In Touch!</h1>
+        <div class="join form">
+            <form class="res-form" method="get" action="commthanks.html">
+                <fieldset>
+                    <legend>Leave a Comment</legend>
+                    <div class="app-info"><h4>Applicant Information</h4>
+                    <label class="top"> Name <input type="text" id="name" name="name" placeholder="Name" required></label>
+                    <label class="top"> Email* <input type="email" id="email" name="email" placeholder="someone@gmail.com" required></label>
+                    <label class="top"> What's Up? <textarea  id="description" name="description" rows="10" cols="75" placeholder="Tell us what's on your mind!"></textarea></label>
+                    <p></p>
+                    <input type="submit" value="Submit Application" class="submitBtn">
+                    </div>
+                </fieldset>
+            </form>
+        </div>
         <section style="text-align: center;">
-            <h3>Beautiful Cozumel</h3>
-            <div class="current-weather">
-                <p>Current Weather</p>
-                    <p><span id="current-temp"></span></p>
-                    <figure>
-                        <img id="weather-icon" src="https://openweathermap.org/img/wn/" alt="icon">
-                        <figcaption></figcaption>
-                    </figure>
-            </div>
-            <div class="humidity">
-                <p>Current Humidity</p>
-                    <p><span id="humidity"></span>%</p>
-            </div>
+            <h3>Contact Us Here</h3>
+            <p>Phone: (555) 555-5555</p>
+            <p>Email: rentals@scootsrentals.com</p>
+            <p>Mailing Address: Avenidad Rafael Melgar Entre 1era y, Av Lic Benito Juárez, 77600 Cozumel, Q.R., Mexico</p>
         </section>
-
     </main>
     <footer>
         <div style="text-align: center;">

@@ -13,7 +13,7 @@ header {
     font-size: 20px;;
 }
 
-h3 {
+h3, .res-title {
     color:#FFFFFF;
     background-color: #FFA07A;
     padding-top: 10px;
@@ -91,6 +91,138 @@ a {
     color: black;
   }
 
-  table, th, td {
-    border:1px solid black;
-  }
+  form fieldset {
+    margin: 2rem 0;
+    border: 1px solid #20B2AA;
+    border-radius: 10px;
+    padding: .5rem 2%;
+    background: rgba(255, 239, 213, 0.7);
+    padding: 7px;
+}
+
+form legend {
+    color: white;
+    margin: 0 1rem;
+    padding: 0 .5rem;
+    background: #FFA07A;
+    padding: 7px;
+    border: 1px solid #FFA07A;
+    border-radius: 5px;
+}
+
+form label.top, form div {
+    display: block;
+    padding-top: 1rem;
+    color: black;
+    font-size: 1rem;
+}
+
+form label.top input, form label.top select {
+    -webkit-appearance: none;
+    display: block;
+    font-size: 1rem;
+    border: solid 1px #999;
+    border-radius: 4px;
+    padding: .75rem;
+    color: #333;
+    width: 100%;
+    max-width: 20rem;
+    background-color: rgba(0,0,0,0.1);
+}
+
+form label.sbs {
+    display: block;
+    padding: .75rem 0;
+    color: black;
+}
+
+form input.submitBtn {
+    border: none;
+    background-color: #20B2AA;
+    color: white;
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    margin: 0 0 2rem 2%;
+    width: 96%;
+    max-width: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form input.submitBtn:hover {
+    background-color: #FFA07A;
+}
+
+form label.top input:required {
+    border: #d65353 solid 3px;
+}
+
+form label.top input:required:valid {
+    border: #59ad6b  solid 3px;
+}
+
+form textarea {
+    display: block;
+    padding-top: 1rem;
+    color: #456685;
+    resize: none;
+    font-size: 18px;
+    border: none;
+    border-radius: 1rem;
+}
+
+input[type='number'] {
+    width: 5rem;
+    text-align: center;
+} 
+
+.res-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.thankyou {
+    font-size: larger;
+}
+
+.cards {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 30px #777777;
+    padding: 1rem;
+    margin-top: 1em;
+    display: grid;
+    grid-gap: 0.25rem;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    overflow-wrap: break-word;
+}
+
+.cards section {
+  border: 1px solid #53896c;
+  border-radius: 5px;
+  padding: 0.5rem;
+  background-color: #c2eeff3a;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.cards section p {
+  font-size: 1rem;
+  position: relative;
+  word-break: break-all;
+  margin: auto;
+}
+
+.cards h2 {
+  font-size: 1.5rem;
+  text-align: center;
+  background-color: #1e5f7c;
+  color: whitesmoke;
+  border-radius: 5px;
+  padding: 0.5em;
+  width: 100%;
+}
