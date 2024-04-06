@@ -19,11 +19,11 @@ fetch(requestURL)
         let td5 = document.createElement('td');
 
         th.textContent = `${type.name}`;
-        td.textContent = `Max Persons: ${type.maxpersons}`;
-        td2.textContent = `Reservation Half Day Price: ${type.reshday}`;
-        td3.textContent = `Reservation Full Day Price: ${type.resfday}`;
-        td4.textContent = `Walk-In Half Day Price: ${type.walkhday}`;
-        td5.textContent = `Walk-In Full Day Price: ${type.walkfday}`;
+        td.textContent = `${type.maxpersons}`;
+        td2.textContent = `${type.reshday}`;
+        td3.textContent = `${type.resfday}`;
+        td4.textContent = `${type.walkhday}`;
+        td5.textContent = `${type.walkfday}`;
         table.append(th);
         table.append(td);
         table.append(td2);
