@@ -21,4 +21,10 @@
 	.stuff {
 		margin: 1rem auto;
 	}
+
+	.responsive {
+		padding: 0 6px;
+		float: left;
+		width: 16.6666667%;
+	  }
 }

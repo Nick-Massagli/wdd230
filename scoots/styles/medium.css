@@ -1,4 +1,4 @@
-@media (min-width: 10.5em){
+@media (min-width: 10.5em) {
     main {
         grid-template-columns: 1fr 1fr;
     }
@@ -62,4 +62,8 @@
         font-size: 2rem;
         cursor: pointer;
     }
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+      }
 }
